@@ -1,0 +1,350 @@
+2023-08-30 10:13:09 -Starting ServiceApplication on LAPTOP-LI0MVQ9Q with PID 22484 (D:\WorkSpace\code\im_system\service\target\classes started by txy in D:\WorkSpace\code\im_system)
+2023-08-30 10:13:09 -The following profiles are active: dev
+2023-08-30 10:13:09 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-30 10:13:09 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-30 10:13:09 -Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2023-08-30 10:13:10 -Tomcat initialized with port(s): 8000 (http)
+2023-08-30 10:13:10 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:13:10 -Starting service [Tomcat]
+2023-08-30 10:13:10 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-08-30 10:13:10 -Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-08-30 10:13:10 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-08-30 10:13:10 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-08-30 10:13:10 -OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-08-30 10:13:10 -Initializing Spring embedded WebApplicationContext
+2023-08-30 10:13:10 -Root WebApplicationContext: initialization completed in 920 ms
+2023-08-30 10:13:10 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imUserController': Unsatisfied dependency expressed through field 'imUserService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.txy.im.service.user.service.ImUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-30 10:13:10 -Stopping service [Tomcat]
+2023-08-30 10:13:10 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-08-30 10:13:10 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field imUserService in com.txy.im.service.user.controller.ImUserController required a bean of type 'com.txy.im.service.user.service.ImUserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.txy.im.service.user.service.ImUserService' in your configuration.
+
+2023-08-30 10:14:35 -Starting ServiceApplication on LAPTOP-LI0MVQ9Q with PID 18516 (D:\WorkSpace\code\im_system\service\target\classes started by txy in D:\WorkSpace\code\im_system)
+2023-08-30 10:14:35 -The following profiles are active: dev
+2023-08-30 10:14:36 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-30 10:14:36 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-30 10:14:36 -Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2023-08-30 10:14:36 -Tomcat initialized with port(s): 8000 (http)
+2023-08-30 10:14:36 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:14:36 -Starting service [Tomcat]
+2023-08-30 10:14:36 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-08-30 10:14:36 -Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-08-30 10:14:36 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-08-30 10:14:36 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-08-30 10:14:36 -OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-08-30 10:14:36 -Initializing Spring embedded WebApplicationContext
+2023-08-30 10:14:36 -Root WebApplicationContext: initialization completed in 836 ms
+2023-08-30 10:14:37 -class com.txy.im.service.user.dao.ImUserDataEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-30 10:14:37 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:14:38 -Starting ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:14:38 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-30 10:14:38 -Started ServiceApplication in 2.906 seconds (JVM running for 3.822)
+2023-08-30 10:44:32 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 10:44:32 -Initializing Servlet 'dispatcherServlet'
+2023-08-30 10:44:32 -Completed initialization in 6 ms
+2023-08-30 10:50:47 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:50:53 -Starting ServiceApplication on LAPTOP-LI0MVQ9Q with PID 7172 (D:\WorkSpace\code\im_system\service\target\classes started by txy in D:\WorkSpace\code\im_system)
+2023-08-30 10:50:53 -The following profiles are active: dev
+2023-08-30 10:50:53 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-30 10:50:53 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-30 10:50:53 -Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2023-08-30 10:50:54 -Tomcat initialized with port(s): 8000 (http)
+2023-08-30 10:50:54 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:50:54 -Starting service [Tomcat]
+2023-08-30 10:50:54 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-08-30 10:50:54 -Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-08-30 10:50:54 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-08-30 10:50:54 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-08-30 10:50:54 -OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-08-30 10:50:54 -Initializing Spring embedded WebApplicationContext
+2023-08-30 10:50:54 -Root WebApplicationContext: initialization completed in 783 ms
+2023-08-30 10:50:54 -class com.txy.im.service.user.dao.ImUserDataEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-30 10:50:54 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:50:55 -Starting ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:50:55 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-30 10:50:55 -Started ServiceApplication in 2.594 seconds (JVM running for 3.278)
+2023-08-30 10:51:04 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 10:51:04 -Initializing Servlet 'dispatcherServlet'
+2023-08-30 10:51:04 -Completed initialization in 4 ms
+2023-08-30 10:52:39 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.txy.im.service.user.service.impl.ImUserServiceImpl.importUser(ImUserServiceImpl.java:29)
+	at com.txy.im.service.user.controller.ImUserController.importUser(ImUserController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-08-30 10:53:21 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:53:25 -Starting ServiceApplication on LAPTOP-LI0MVQ9Q with PID 16148 (D:\WorkSpace\code\im_system\service\target\classes started by txy in D:\WorkSpace\code\im_system)
+2023-08-30 10:53:25 -The following profiles are active: dev
+2023-08-30 10:53:26 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-30 10:53:26 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-30 10:53:26 -Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2023-08-30 10:53:26 -Tomcat initialized with port(s): 8000 (http)
+2023-08-30 10:53:26 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:53:26 -Starting service [Tomcat]
+2023-08-30 10:53:26 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-08-30 10:53:26 -Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-08-30 10:53:26 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-08-30 10:53:26 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-08-30 10:53:26 -OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-08-30 10:53:26 -Initializing Spring embedded WebApplicationContext
+2023-08-30 10:53:26 -Root WebApplicationContext: initialization completed in 783 ms
+2023-08-30 10:53:27 -class com.txy.im.service.user.dao.ImUserDataEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-30 10:53:27 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:53:28 -Starting ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:53:28 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-30 10:53:28 -Started ServiceApplication in 2.726 seconds (JVM running for 3.447)
+2023-08-30 10:53:45 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 10:53:45 -Initializing Servlet 'dispatcherServlet'
+2023-08-30 10:53:45 -Completed initialization in 6 ms
+2023-08-30 10:53:45 -HikariPool-1 - Starting...
+2023-08-30 10:53:45 -HikariPool-1 - Start completed.
+2023-08-30 10:56:56 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:56:56 -HikariPool-1 - Shutdown initiated...
+2023-08-30 10:56:56 -HikariPool-1 - Shutdown completed.
+2023-08-30 10:57:00 -Starting ServiceApplication on LAPTOP-LI0MVQ9Q with PID 22632 (D:\WorkSpace\code\im_system\service\target\classes started by txy in D:\WorkSpace\code\im_system)
+2023-08-30 10:57:00 -The following profiles are active: dev
+2023-08-30 10:57:01 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-30 10:57:01 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-30 10:57:01 -Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2023-08-30 10:57:01 -Tomcat initialized with port(s): 8000 (http)
+2023-08-30 10:57:01 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:57:01 -Starting service [Tomcat]
+2023-08-30 10:57:01 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-08-30 10:57:01 -Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-08-30 10:57:01 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-08-30 10:57:01 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-08-30 10:57:01 -OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-08-30 10:57:01 -Initializing Spring embedded WebApplicationContext
+2023-08-30 10:57:01 -Root WebApplicationContext: initialization completed in 784 ms
+2023-08-30 10:57:02 -class com.txy.im.service.user.dao.ImUserDataEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-30 10:57:02 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:57:03 -Starting ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:57:03 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-30 10:57:03 -Started ServiceApplication in 2.814 seconds (JVM running for 3.569)
+2023-08-30 10:57:20 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:57:23 -Starting ServiceApplication on LAPTOP-LI0MVQ9Q with PID 30276 (D:\WorkSpace\code\im_system\service\target\classes started by txy in D:\WorkSpace\code\im_system)
+2023-08-30 10:57:23 -The following profiles are active: dev
+2023-08-30 10:57:23 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-30 10:57:23 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-30 10:57:23 -Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2023-08-30 10:57:23 -Tomcat initialized with port(s): 8000 (http)
+2023-08-30 10:57:23 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:57:23 -Starting service [Tomcat]
+2023-08-30 10:57:23 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-08-30 10:57:23 -Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-08-30 10:57:23 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-08-30 10:57:23 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-08-30 10:57:23 -OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-08-30 10:57:23 -Initializing Spring embedded WebApplicationContext
+2023-08-30 10:57:23 -Root WebApplicationContext: initialization completed in 813 ms
+2023-08-30 10:57:24 -class com.txy.im.service.user.dao.ImUserDataEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-30 10:57:24 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:57:25 -Starting ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:57:25 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-30 10:57:25 -Started ServiceApplication in 2.884 seconds (JVM running for 3.721)
+2023-08-30 10:57:49 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:57:56 -Starting ServiceApplication on LAPTOP-LI0MVQ9Q with PID 13360 (D:\WorkSpace\code\im_system\service\target\classes started by txy in D:\WorkSpace\code\im_system)
+2023-08-30 10:57:56 -The following profiles are active: dev
+2023-08-30 10:57:57 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-30 10:57:57 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-30 10:57:57 -Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2023-08-30 10:57:57 -Tomcat initialized with port(s): 8000 (http)
+2023-08-30 10:57:57 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:57:57 -Starting service [Tomcat]
+2023-08-30 10:57:57 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-08-30 10:57:57 -Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-08-30 10:57:57 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-08-30 10:57:57 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-08-30 10:57:57 -OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-08-30 10:57:57 -Initializing Spring embedded WebApplicationContext
+2023-08-30 10:57:57 -Root WebApplicationContext: initialization completed in 845 ms
+2023-08-30 10:57:58 -class com.txy.im.service.user.dao.ImUserDataEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-30 10:57:58 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:57:59 -Starting ProtocolHandler ["http-nio-8000"]
+2023-08-30 10:57:59 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-30 10:57:59 -Started ServiceApplication in 2.988 seconds (JVM running for 3.845)
+2023-08-30 10:58:12 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 10:58:12 -Initializing Servlet 'dispatcherServlet'
+2023-08-30 10:58:12 -Completed initialization in 4 ms
+2023-08-30 10:58:13 -HikariPool-1 - Starting...
+2023-08-30 10:58:13 -HikariPool-1 - Start completed.
+2023-08-30 11:00:44 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-30 11:00:44 -HikariPool-1 - Shutdown initiated...
+2023-08-30 11:00:44 -HikariPool-1 - Shutdown completed.
+2023-08-30 11:00:47 -Starting ServiceApplication on LAPTOP-LI0MVQ9Q with PID 2428 (D:\WorkSpace\code\im_system\service\target\classes started by txy in D:\WorkSpace\code\im_system)
+2023-08-30 11:00:47 -The following profiles are active: dev
+2023-08-30 11:00:48 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-30 11:00:48 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-30 11:00:48 -Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2023-08-30 11:00:48 -Tomcat initialized with port(s): 8000 (http)
+2023-08-30 11:00:48 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-08-30 11:00:48 -Starting service [Tomcat]
+2023-08-30 11:00:48 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-08-30 11:00:48 -Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-08-30 11:00:48 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-08-30 11:00:48 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-08-30 11:00:48 -OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-08-30 11:00:48 -Initializing Spring embedded WebApplicationContext
+2023-08-30 11:00:48 -Root WebApplicationContext: initialization completed in 925 ms
+2023-08-30 11:00:49 -class com.txy.im.service.user.dao.ImUserDataEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-30 11:00:49 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-30 11:00:50 -Starting ProtocolHandler ["http-nio-8000"]
+2023-08-30 11:00:50 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-30 11:00:50 -Started ServiceApplication in 3.253 seconds (JVM running for 4.534)
+2023-08-30 11:01:19 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 11:01:19 -Initializing Servlet 'dispatcherServlet'
+2023-08-30 11:01:19 -Completed initialization in 4 ms
+2023-08-30 11:02:30 -HikariPool-1 - Starting...
+2023-08-30 11:02:30 -HikariPool-1 - Start completed.
+2023-08-30 11:02:31 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-30 11:02:31 -HikariPool-1 - Shutdown initiated...
+2023-08-30 11:02:31 -HikariPool-1 - Shutdown completed.
+2023-08-30 11:02:36 -Starting ServiceApplication on LAPTOP-LI0MVQ9Q with PID 7704 (D:\WorkSpace\code\im_system\service\target\classes started by txy in D:\WorkSpace\code\im_system)
+2023-08-30 11:02:36 -The following profiles are active: dev
+2023-08-30 11:02:37 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-30 11:02:37 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-30 11:02:37 -Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2023-08-30 11:02:37 -Tomcat initialized with port(s): 8000 (http)
+2023-08-30 11:02:37 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-08-30 11:02:37 -Starting service [Tomcat]
+2023-08-30 11:02:37 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-08-30 11:02:37 -Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-08-30 11:02:37 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-08-30 11:02:37 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-08-30 11:02:37 -OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-08-30 11:02:37 -Initializing Spring embedded WebApplicationContext
+2023-08-30 11:02:37 -Root WebApplicationContext: initialization completed in 848 ms
+2023-08-30 11:02:38 -class com.txy.im.service.user.dao.ImUserDataEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-30 11:02:38 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-30 11:02:39 -Starting ProtocolHandler ["http-nio-8000"]
+2023-08-30 11:02:39 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-30 11:02:39 -Started ServiceApplication in 2.925 seconds (JVM running for 3.814)
+2023-08-30 11:04:48 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 11:04:48 -Initializing Servlet 'dispatcherServlet'
+2023-08-30 11:04:48 -Completed initialization in 7 ms
+2023-08-30 11:04:49 -HikariPool-1 - Starting...
+2023-08-30 11:04:49 -HikariPool-1 - Start completed.
+2023-08-30 11:11:45 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-30 11:11:45 -HikariPool-1 - Shutdown initiated...
+2023-08-30 11:11:45 -HikariPool-1 - Shutdown completed.
+2023-08-30 11:11:48 -Starting ServiceApplication on LAPTOP-LI0MVQ9Q with PID 30636 (D:\WorkSpace\code\im_system\service\target\classes started by txy in D:\WorkSpace\code\im_system)
+2023-08-30 11:11:48 -The following profiles are active: dev
+2023-08-30 11:11:48 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-30 11:11:48 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-30 11:11:48 -Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2023-08-30 11:11:48 -Tomcat initialized with port(s): 8000 (http)
+2023-08-30 11:11:49 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-08-30 11:11:49 -Starting service [Tomcat]
+2023-08-30 11:11:49 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-08-30 11:11:49 -Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-08-30 11:11:49 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-08-30 11:11:49 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-08-30 11:11:49 -OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-08-30 11:11:49 -Initializing Spring embedded WebApplicationContext
+2023-08-30 11:11:49 -Root WebApplicationContext: initialization completed in 916 ms
+2023-08-30 11:11:49 -class com.txy.im.service.user.dao.ImUserDataEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-30 11:11:50 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-30 11:11:50 -Starting ProtocolHandler ["http-nio-8000"]
+2023-08-30 11:11:51 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-30 11:11:51 -Started ServiceApplication in 3.302 seconds (JVM running for 4.127)
+2023-08-30 11:12:59 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 11:12:59 -Initializing Servlet 'dispatcherServlet'
+2023-08-30 11:12:59 -Completed initialization in 5 ms
+2023-08-30 11:18:45 -HikariPool-1 - Starting...
+2023-08-30 11:18:45 -HikariPool-1 - Start completed.
+2023-08-30 11:18:46 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-30 11:18:46 -HikariPool-1 - Shutdown initiated...
+2023-08-30 11:18:46 -HikariPool-1 - Shutdown completed.
+2023-08-30 11:18:50 -Starting ServiceApplication on LAPTOP-LI0MVQ9Q with PID 31268 (D:\WorkSpace\code\im_system\service\target\classes started by txy in D:\WorkSpace\code\im_system)
+2023-08-30 11:18:50 -The following profiles are active: dev
+2023-08-30 11:18:50 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-30 11:18:50 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-30 11:18:50 -Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2023-08-30 11:18:51 -Tomcat initialized with port(s): 8000 (http)
+2023-08-30 11:18:51 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-08-30 11:18:51 -Starting service [Tomcat]
+2023-08-30 11:18:51 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-08-30 11:18:51 -Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-08-30 11:18:51 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-08-30 11:18:51 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-08-30 11:18:51 -OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-08-30 11:18:51 -Initializing Spring embedded WebApplicationContext
+2023-08-30 11:18:51 -Root WebApplicationContext: initialization completed in 920 ms
+2023-08-30 11:18:52 -class com.txy.im.service.user.dao.ImUserDataEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-30 11:18:52 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-30 11:18:53 -Starting ProtocolHandler ["http-nio-8000"]
+2023-08-30 11:18:53 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-30 11:18:53 -Started ServiceApplication in 3.32 seconds (JVM running for 4.183)
+2023-08-30 11:19:01 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 11:19:01 -Initializing Servlet 'dispatcherServlet'
+2023-08-30 11:19:01 -Completed initialization in 5 ms
+2023-08-30 11:19:12 -HikariPool-1 - Starting...
+2023-08-30 11:19:12 -HikariPool-1 - Start completed.
+2023-08-30 11:20:25 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-30 11:20:25 -HikariPool-1 - Shutdown initiated...
+2023-08-30 11:20:25 -HikariPool-1 - Shutdown completed.
